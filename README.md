@@ -1,6 +1,5 @@
 ## web前端工程师简历
 ## 非常感谢 zhaoky(https://github.com/zhaoky) 提供代码参考
-### 项目地址：http://hzn1995.com/aboutMe/
 
 ### MISC
 

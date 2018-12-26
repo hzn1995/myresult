@@ -1,0 +1,548 @@
+
+{
+  "cn": {
+    "header": {
+      "langList": [
+        "中",
+        "英"
+      ],
+      "titleList": [
+        {
+          "svg": "img/d_home.svg",
+          "title": "首页"
+        },
+        {
+          "svg": "img/d_info.svg",
+          "title": "关于我"
+        },
+        {
+          "svg": "img/d_skills.svg",
+          "title": "技能栈"
+        },
+        {
+          "svg": "img/d_exp.svg",
+          "title": "经历"
+        },
+        {
+          "svg": "img/d_works.svg",
+          "title": "作品集"
+        },
+        {
+          "svg": "img/d_contact.svg",
+          "title": "联系我"
+        }
+      ]
+    },
+    "footer": {},
+    "default": {
+      "quote": "路漫漫其修远兮，吾将上下而求索",
+      "desList": [
+        "我叫何智能",
+        "一名前端研发工程师",
+        "hznf2e@126.com"
+      ]
+    },
+    "info": {
+      "title": "关于我",
+      "infoList": [
+        {
+          "icon": "img/i_age.svg",
+          "key": "年龄",
+          "value": "24岁"
+        },
+        {
+          "icon": "img/i_site.svg",
+          "key": "坐标",
+          "value": "上海"
+        },
+        {
+          "icon": "img/i_status.svg",
+          "key": "状态",
+          "value": "在职"
+        }
+      ],
+      "desList": [
+        "两年半全职前端开发经验",
+        "熟悉MVC,MVVM开发,深谙自动化,模块化开发之道",
+        "高效的自学能力,具备独立分析解决问题能力",
+        "强烈的自我驱动力,代码强迫症患者",
+        "目标是成为一名架构师，目前正朝着全栈方法发展"
+      ]
+    },
+    "skill": {
+      "title": "技能栈",
+      "outCircleList": [
+        {
+          "color": "rgba(121,100,102,0.8)",
+          "name": "gulp"
+        },
+        {
+          "color": "rgba(49,65,82,0.8)",
+          "name": "angular"
+        },
+        {
+          "color": "rgba(76,157,160,0.8)",
+          "name": "webpack"
+        },
+        {
+          "color": "rgba(66,66,66,0.8)",
+          "name": "bootstrap"
+        },
+        {
+          "color": "rgba(193,131,106,0.8)",
+          "name": "git"
+        },
+        {
+          "color": "rgba(117,148,179,0.8)",
+          "name": "node.js"
+        },
+        {
+          "color": "rgba(71,83,94,0.8)",
+          "name": "PHP"
+        },
+        {
+          "color": "rgba(147,147,189,0.8)",
+          "name": "小程序"
+        }
+      ],
+      "innerCircleList": [
+        {
+          "color": "rgba(66,66,66,0.8)",
+          "name": "css"
+        },
+        {
+          "color": "rgba(171,209,220,0.8)",
+          "name": "vue"
+        },
+        {
+          "color": "rgba(179,164,140,0.8)",
+          "name": "jquery"
+        },
+        {
+          "color": "rgba(238,215,163,0.8)",
+          "name": "js"
+        },
+        {
+          "color": "rgba(207,184,178,0.8)",
+          "name": "tp5"
+        },
+        {
+          "color": "rgba(71,83,94,0.8)",
+          "name": "HTML"
+        }
+      ],
+      "desList": [
+        "前端三年载，虽无大为，却有坚毅之心，青云之志，锲而不舍之精神",
+        "朝暮间，三载奋不顾身，付东流，俱往矣",
+        "忆往昔",
+        "初端技术梦，懵懂之间，以勤为先，以思为本，专研于技术，奋身于项目，用心用力，力求完美",
+        "三年间，从前端技术至框架，后至PHP至服务器至小程序，自生至熟，期间至艰辛，与志也，不足为道。虽无管仲伯夷之能，无王勃曹植之才，然余有向上之心，醇厚之情，亦有敢于创新之意识，然天下能人志士何其多矣！故而务须加倍勤勉追赶之。寄蜉蝣于天地，渺沧海之一粟。哀吾生之须臾，羡长江之无穷。虽时常感概良多，与君共勉之。"
+      ]
+    },
+    "works": {
+      "title": "作品集",
+      "worksList": [
+        {
+          "title": "投资包官网开发",
+          "des": "项目基于fis3 构建，网站前端展示主要有：html+jquery+arttemplte+ajax;弹框采用layer弹层组件；因是金融项目，设计到数据实时交互，股票行情推送，所以项目使用使用NodeJs 语言开发，主要使用socket.io 来暴露出股票、期货socket接口实现websocket行情的即时推送。网站后端Api框架主要采用SSM(Spring SpringMVC MyBatis) 架构, 项目使用Maven 构建，结合SSM 便捷易上手的特点，使其更适合敏捷开发，系统能快速迭代应付未来可能的系统压力。同时对与项目采用合并、压缩、cdn加速来进行前端优化。",
+          "url": "http://www.tzb360.com/"
+        },
+        {
+          "title": "投资宝网站私募版",
+          "des": "开发环境主要有Node.js+react+Redu；JS使用最多的版本是es7,css使用最多的版本是css3，项目内大量使用修饰器，class类，generator，async，柯里化函数，箭头函数和generator的co模块。同时也对项目进行懒加载-Lazy Loading - React进行优化，对于路由加载：由于大型项目我们不可能把所有路由的JSX打包成一个，这造成首次渲染极其庞大，用户体验大大降低，用户对网站可忍受程度是平均是5秒，所以用import方式首次加载就加载全部路由文件是不可取的，需要codespliting来分割每个路由的文件，按照路由来按需加载，所以使用bundle-loader进行路由加载。使用postcss-loader，css-loader对样式进行加载。",
+          "url": "http://simu.tzb360.com/"
+        },
+        {
+          "title": "投资宝微信版开发",
+          "des": "公司微信公众号项目，先前已经开发了移动端1.0项目，现在是对微信公众号整体升级为2.0。所以该项目是微信2.0项目开发，又分为个人版和企业版。在框架上采用angular+ionic+ngCordova进行项目开发，在兼容上，能够兼容ios和安卓，QQ浏览器，uc浏览器等主流浏览器。",
+          "url": "http://wx.tzb360.com/"
+        },
+        {
+          "title": "OA办公系统2.0",
+          "des": "集团内部办公系统，主要分为办公用品管理、报销管理、勾餐管理、后勤管理、会务管理、考勤管理、车辆管理等八大模板。前期经过大量的需求分析，需求推演以及技术框架认证，最终采用bootstrap+jquery+css3+h5+tp5开发系统。主要亮点：权限分配明确、界面清爽、功能较为齐全、解决较多的技术难点；缺点：插件使用过多，代码冗余，前端模块化不明显",
+          "url": "http://oa.xgyuanda.com"
+        },
+        {
+          "title": "采购系统2.0",
+          "des": "集团内部采购系统，前端技术：vue+element-ui+webpack+node实现本地环境开发,后台采用PHP+tp5。",
+          "url": "http://cg.xgyuanda.com"
+        },
+        {
+          "title": "连云港国泰医院小程序",
+          "des": "集团下属国泰医院的一个小程序，目的是扩大品牌影响力。这个小程序整体上没啥子难度，就不讲那么多了",
+          "url": "javascript:alert('微信搜索连云港市国泰小程序');"
+        },
+        {
+          "title": "医院移动推广站",
+          "des": "福州左海妇科医院推广站，采用jquery+css+html构建静态页面并修改为模板页，结合织梦系统构建整站。整体上比较简单，并没啥亮点，也就不扯那么多了",
+          "url": "http://4g.zhfk1.com"
+        },
+        {
+          "title": "医院PC推广站",
+          "des": "福州泌尿专科医院推广站，采用jquery+css+html构建静态页面并修改为模板页，结合esshop系统构建整站。整体上比较简单，并没啥亮点，也就不扯那么多了",
+          "url": "http://www.fuzhouxb.com/"
+        },
+        {
+          "title": "医院响应式优化站",
+          "des": "福州左海医院优化站，采用jquery+css+html构建静态页面并修改为模板页，结合织梦系统构建整站。",
+          "url": "http://www.fzzhfk.com"
+        },
+        {
+          "title": "医院响应式优化站",
+          "des": "福州泌尿专科医院优化站，采用jquery+bootstrap+css+html构建静态页面并修改为模板页，使用PHP作为后台语言,结合esshop系统构建整站。",
+          "url": "http://test.fj120nk.com/"
+        }
+      ],
+      "viewMore": "github上面查看更多"
+    },
+    "experience": {
+      "title": "经历",
+      "expList": [
+        {
+          "title": "上海以谢信息技术有限公司",
+          "time": "2017年7月~至今",
+          "post": "web前端开发工程师",
+          "imgUrl": "img/e_html.svg",
+          "tech": "html5 css3 javascript jquery bootstrap vue php tp5 小程序及若干类库",
+          "contentList": [
+            "负责集团下属医院网站开发及维护工作",
+            "负责集团下属医院活动页开发",
+            "参与需求调研，项目可行性分析，技术可行性分析和需求分析",
+            "负责对下属医院的技术支持",
+            "对集团内部各大系统前端技术提供支持"
+          ]
+        },
+        {
+          "title": "上海量宽信息技术有限公司",
+          "time": "2016.05-2017.07",
+          "post": "web前端开发工程师",
+          "imgUrl": "img/e_js.svg",
+          "tech": "html5 css3 less gulp webpack angular2.x ionic cordova js jquery及若干类库",
+          "contentList": [
+            "负责快速构建高质量PC/微信页面",
+            "负责协助设计、后台开发人员配合完成网站项目的调试及修改",
+            "负责网站前端页面开发及维护",
+            "学习并使用angular+ionic"
+          ]
+        }
+      ],
+      "des": "守职而不废 处义而不回"
+    },
+    "contact": {
+      "title": "联系我",
+      "desList1": [
+        "灵感",
+        "代码",
+        "执着",
+        "创新",
+        "梦想",
+        "未来"
+      ],
+      "desList2": [
+        "注重效率，偏爱敏捷开发",
+        "喜欢尝试，期待新鲜事物",
+        "大胆创新，相信爱拼才会赢",
+        "前端即兴趣，兴趣即未来",
+        "行路有良友，便是捷径",
+        "带上我吧，一起看到更大的世界"
+      ],
+      "download": "下载简历",
+      "fileList": [
+        {
+          "title": "HTML版",
+          "url": ""
+        },
+        {
+          "title": "PDF版",
+          "url": ""
+        }
+      ],
+      "typeList": [
+        {
+          "icon": "img/s_github.svg",
+          "url": "https://github.com/hzn1995"
+        },
+        {
+          "icon": "img/s_blog.svg",
+          "url": "https://www.cnblogs.com/hzn1995/"
+        },
+        {
+          "icon": "img/s_wb.svg",
+          "url": "https://weibo.com/5565322936/profile?rightmod=1&wvr=6&mod=personinfo"
+        }
+      ]
+    }
+  },
+  "en": {
+    "header": {
+      "langList": [
+        "CN",
+        "EN"
+      ],
+      "titleList": [
+        {
+          "svg": "img/d_home.svg",
+          "title": "home"
+        },
+        {
+          "svg": "img/d_info.svg",
+          "title": "about"
+        },
+        {
+          "svg": "img/d_skills.svg",
+          "title": "skills"
+        },
+        {
+          "svg": "img/d_exp.svg",
+          "title": "exp"
+        },
+        {
+          "svg": "img/d_works.svg",
+          "title": "works"
+        },
+        {
+          "svg": "img/d_contact.svg",
+          "title": "contact"
+        }
+      ]
+    },
+    "footer": {},
+    "default": {
+      "quote": "The road ahead is long and rugged，but I'm determined to explore it myself.",
+      "desList": [
+        "I am ZhiNeng He",
+        "A front-end R & D engineer",
+        "hznf2e@126.com"
+      ]
+    },
+    "info": {
+      "title": "About Me",
+      "infoList": [
+        {
+          "icon": "img/i_age.svg",
+          "key": "Age",
+          "value": "26"
+        },
+        {
+          "icon": "img/i_site.svg",
+          "key": "Add.",
+          "value": "Shang Hai"
+        },
+        {
+          "icon": "img/i_status.svg",
+          "key": "Status",
+          "value": "On Job"
+        }
+      ],
+      "desList": [
+        "Two and a half years of full-time front-end development experience",
+        "Familiar with MVC, MVVM development, familiar with automation, modular development",
+        "Effective self-study ability, independent analysis and problem solving ability",
+        "Strong self-motivation, code obsessive-compulsive disorder",
+        "The goal is to become an architect and is moving towards a full stack approach"
+      ]
+    },
+    "skill": {
+      "title": "Skills",
+      "outCircleList": [
+        {
+          "color": "rgba(121,100,102,0.8)",
+          "name": "gulp"
+        },
+        {
+          "color": "rgba(49,65,82,0.8)",
+          "name": "angular"
+        },
+        {
+          "color": "rgba(76,157,160,0.8)",
+          "name": "webpack"
+        },
+        {
+          "color": "rgba(66,66,66,0.8)",
+          "name": "bootstrap"
+        },
+        {
+          "color": "rgba(193,131,106,0.8)",
+          "name": "git"
+        },
+        {
+          "color": "rgba(117,148,179,0.8)",
+          "name": "node.js"
+        },
+        {
+          "color": "rgba(71,83,94,0.8)",
+          "name": "PHP"
+        },
+        {
+          "color": "rgba(147,147,189,0.8)",
+          "name": "Mini Program"
+        }
+      ],
+      "innerCircleList": [
+        {
+          "color": "rgba(66,66,66,0.8)",
+          "name": "css"
+        },
+        {
+          "color": "rgba(171,209,220,0.8)",
+          "name": "vue"
+        },
+        {
+          "color": "rgba(179,164,140,0.8)",
+          "name": "jquery"
+        },
+        {
+          "color": "rgba(238,215,163,0.8)",
+          "name": "js"
+        },
+        {
+          "color": "rgba(207,184,178,0.8)",
+          "name": "tp5"
+        },
+        {
+          "color": "rgba(71,83,94,0.8)",
+          "name": "HTML"
+        }
+      ],
+      "desList": [
+        "The front-end three years, although not great, but has a firm heart, ambition, perseverance spirit",
+        "In the twilight of the day, three years of recklessness, Fudong Liu, all the past",
+        "Recalling the past",
+        "Beginning technology dream, between ignorance, diligence first, thinking first, specializing in technology, dedicated to the project, hard work, strive for perfection"
+      ]
+    },
+    "works": {
+      "title": "Works",
+      "worksList": [
+        {
+          "title": "Open Investment Package Official Website",
+          "des": "The project base is built in fis3, and the front display of the site is mainly: html+jquery+arttemplte+ajax; the projectile frame uses layer layer components; therefore, the financial project is designed to interact in time and push the stock market according to the actual situation. So the project uses the NodeJs language to develop, mainly using socket.io to expose the real time push of the websocket operation of the stock and futures socket interface. The back end Api of the website. The framework is mainly based on SSM (Spring Spring MVC MyBatis) architecture. Maven is used to build the project. Combined with the characteristics of SSM, which is convenient and easy to use, it is more suitable for agile development. Rapid iteration of the system should be handed over to the possible system pressure in the future. At the same time, merging, compression and CDN acceleration are used to optimize the top of the project.",
+          "url": "http://www.tzb360.com/"
+        },
+        {
+          "title": "Private Recruitment Edition of Investment Treasure Website",
+          "des": "The development environment mainly has Node.js+react+Redu; the most used version of JS is ES7, and the most used version of CSS is CSS3. A large number of modifiers, class, generator, async, the Currie function, the arrow function, and co modules of generator are used within the project. All the JSX routing into a package, which caused the first rendering very large, so the user experience greatly reduced, users on the site can tolerate is an average of five seconds, the import mode is first loaded into the loading route file is not desirable, need codespliting to split every route file, according to the routing load on demand, the use of bundle-loader routing Plus. Use postcss-loader, css-loader reply style to load.",
+          "url": "http://simu.tzb360.com/"
+        },
+        {
+          "title": "Investment Baoweixin Open Edition",
+          "des": "The company WeChat public number project has previously developed the mobile terminal 1 project, now the WeChat public is called the overall upgrade to 2. Therefore, the project is the WeChat to.0 project development, also divided into personal and enterprise editions. On the framework, the angular+ionic+ngCordova for item development, in compatibility, can accommodate both IOS and Android, QQ browsers, UC browser browsers and other mainstream.",
+          "url": "http://wx.tzb360.com/"
+        },
+        {
+          "title": "OA Office System II.0",
+          "des": "The internal office system of the group is mainly divided into eight major templates, such as office supplies management, reimbursement management, dining management, logistics management, commitment to management, attendance management, vehicle management and so on. After a large amount of pre demand analysis, the requirements push performance and technical framework certification, and the bootstrap+jquery+css3+h5+tp5 open system is adopted at the end. The main highlights are clear authority distribution, clear interface and work. Can be more complete, solve more technical difficulties; Disadvantages: too much use of inserts, code redundancy, front-end modularity is not obvious",
+          "url": "http://oa.xgyuanda.com/"
+        },
+        {
+          "title": "Procurement System II.0",
+          "des": "Group internal procurement system, front-end technology: Vue + element-ui + webpack + node to achieve local environment development, backstage using PHP + tp5.",
+          "url": "http://cg.xgyuanda.com"
+        },
+        {
+          "title": "Guotai Hospital Mini Program",
+          "des": "A small procedure of Cathay Pacific Hospital under the Group aims at expanding brand influence. As a whole, this little program is not so difficult, not so much.",
+          "url": "javascript:alert('Wechat Search for Guotai Hospital Mini Program')"
+        },
+        {
+          "title": "Hospital Mobile Promotion Station",
+          "des": "Fuzhou Zuohai Gynecological Hospital Extension Station uses jQuery + CSS + HTML to build static pages and modify them to template pages, and combines dream weaving system to build the whole station. Overall, it's relatively simple, and there's no bright spot, so there's not so much to talk about.",
+          "url": "http://4g.zhfk1.com"
+        },
+        {
+          "title": "Hospital PC Extension Station",
+          "des": "Fuzhou Urology Hospital Extension Station uses jQuery + CSS + HTML to construct static pages and modify them to template pages, and establishes the whole station with esshop system. Overall, it's relatively simple, and there's no bright spot, so there's not so much to talk about.",
+          "url": "http://www.fuzhouxb.com/"
+        },
+        {
+          "title": "Hospital response optimization station",
+          "des": "Fuzhou Zuohai Hospital Optimizing Station uses jQuery + CSS + HTML to construct static pages and modify them to template pages, and combines dream weaving system to construct the whole station.",
+          "url": "http://www.fzzhfk.com"
+        },
+        {
+          "title": "Hospital response optimization station",
+          "des": "Fuzhou Urology Hospital Optimizing Station uses jquery+bootstrap+css+html to construct static pages and modify them to template pages. PHP is used as background language and esshop system is used to construct the whole station.",
+          "url": "http://test.fj120nk.com/"
+        }
+      ],
+      "viewMore": "Go github to see more"
+    },
+    "experience": {
+      "title": "Experience",
+      "expList": [
+        {
+          "title": "Shanghai Yixiang Information Technology Co., Ltd",
+          "time": "July 2017 to present",
+          "post": "A front-end R & D engineer",
+          "imgUrl": "img/e_html.svg",
+          "tech": "html5 css3 javascript jquery bootstrap vue php tp5 Mini Program and Some class libraries",
+          "contentList": [
+            "To be responsible for the development and maintenance of hospital websites under the Group",
+            "Responsible for the development of activity pages of subordinate hospitals",
+            "Participation in demand research, project feasibility analysis, technical feasibility analysis and demand analysis",
+            "Responsible for technical support to subordinate hospitals",
+            "Support the front-end technology of major systems within the group"
+          ]
+        },
+        {
+          "title": "SHANGHAI QUANGWAN INFORMATION TECHNOLOGY CO., LTD.",
+          "time": "2016.05-2017.07",
+          "post": "A front-end R & D engineer",
+          "imgUrl": "img/e_js.svg",
+          "tech": "html5 css3 less gulp webpack angular2.x ionic cordova js jquery and Some class libraries",
+          "contentList": [
+            "Responsible for rapid construction of high quality PC/Wechat pages",
+            "Responsible for assisting design and background developers to complete debugging and modification of website projects",
+            "Responsible for website front-end page development and maintenance",
+            "Learning and using angular + ionic"
+          ]
+        }
+      ],
+      "des": "A man should not waver and carry out his duties, and should remain true to his conviction."
+    },
+    "contact": {
+      "title": "Contact Me",
+      "desList1": [
+        "INSPIRATION",
+        "CODE",
+        "Persistent",
+        "Innovate",
+        "DREAM",
+        "FUTURE"
+      ],
+      "desList2": [
+        "Focus on efficiency, preference for agile development",
+        "Like to try, look forward to something new",
+        "Be bold and innovative, believe that hard work will win",
+        "Front is interested, interest is the future",
+        "Line road friends, is a shortcut",
+        "With me, see the bigger world together"
+      ],
+      "download": "Download Resume",
+      "fileList": [
+        {
+          "title": "HTML",
+          "url": ""
+        },
+        {
+          "title": "PDF",
+          "url": ""
+        }
+      ],
+      "typeList": [
+        {
+          "icon": "img/s_github.svg",
+          "url": "https://github.com/hzn1995"
+        },
+        {
+          "icon": "img/s_blog.svg",
+          "url": "https://www.cnblogs.com/hzn1995/"
+        },
+        {
+          "icon": "img/s_wb.svg",
+          "url": "https://weibo.com/5565322936/profile?rightmod=1&wvr=6&mod=personinfo"
+        }
+      ]
+    }
+  }
+}

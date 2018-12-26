@@ -1,0 +1,18 @@
+<div class="-work">
+    <div class="-title" ng-bind="$ctrl.title"></div>
+    <div class="-content">
+        <ul class="-work-list" switch-drags>
+            <li class="-work-item" ng-repeat="item in $ctrl.worksList track by $index">
+                <div class="-work-items">
+                    <h4 class="-work-title" ng-bind="item.title"></h4>
+                    <p class="-work-des" ng-class="{'-work-des-en':$ctrl.isEng}" ng-bind="item.des"></p>
+                    <a class="-work-link" ng-href="{{item.url}}" target="_blank"><img src="img/w_link.svg" alt=""></a>
+                </div>
+            </li>
+        </ul>
+        <div class="-work-switch">
+            <i class="-left" click-lft></i>
+            <i class="-right" click-right></i>
+        </div>
+    </div>
+</div>
